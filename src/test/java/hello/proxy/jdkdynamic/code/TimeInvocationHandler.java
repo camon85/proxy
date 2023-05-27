@@ -22,7 +22,7 @@ public class TimeInvocationHandler implements InvocationHandler {
 
         long endTime = System.currentTimeMillis();
         long resultTime = endTime - startTime;
-        log.info("TimeProxy 정료 resultTime={}", resultTime);
+        log.info("TimeProxy 종료 resultTime={}", resultTime);
         return result;
     }
 }
